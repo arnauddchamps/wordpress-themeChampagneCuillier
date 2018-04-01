@@ -1,0 +1,14 @@
+/*
+Theme Name: Champagne Theme
+Theme URI: http://arnauddeschamps.fr
+Description: Bootstrap Starter Theme for WordPress. Using Twitter Bootstrap 4.0.0
+Author: Arnaud Deschamps
+Author URI: http://arnauddeschamps.fr
+Version: 1.0
+Tags:
+Text Domain: Champagne Theme
+*/
+
+body {
+    background-color: green;
+}
