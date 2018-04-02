@@ -11,10 +11,11 @@ function adcuillier_scripts() {
     //chargement des styles
     wp_enqueue_style( 'adcuillier_bootstrap-core', get_template_directory_uri() . '/css/bootstrap.min.css', array(), ADCUILLIER_VERSION , 'all' );
     wp_enqueue_style( 'adcuillier_custom', get_template_directory_uri() . '/style.css', array('adcuillier_bootstrap-core'), ADCUILLIER_VERSION , 'all' );
+   
     //chargement des scripts
-    wp_enqueue_script( 'adcuillier_script', get_template_directory_uri() . '/js/adcuillier.js', array('jquery'), ADCUILLIER_VERSION , true );
-    
-
+    wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), ADCUILLIER_VERSION , true );
+    wp_enqueue_script( 'adcuillier_script', get_template_directory_uri() . '/js/adcuillier.js', array('jquery', 'bootstrap-js'), ADCUILLIER_VERSION , true );
+   
 } //fin function adcuillier_scripts
 
 add_action('wp_enqueue_scripts', 'adcuillier_scripts');
