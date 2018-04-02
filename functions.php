@@ -37,9 +37,12 @@ function adcuillier_setup() {
     //support des vignettes
     add_theme_support( 'post-thumbnails' );
     //enlève générateur de version
-    remove_action('wp_head', 'wp_generator');
+    remove_action( 'wp_head', 'wp_generator' );
     //enlève les guillemets à la française
-    //remove_filter('the_content', 'wptexturize');
+    //remove_filter( 'the_content', 'wptexturize' );
+
+    //support du titre
+    add_theme_support( 'title-tag' );
 
 }//fin de la function adcuillier_setup
 
