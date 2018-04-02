@@ -27,3 +27,15 @@ function adcuillier_admin_scripts() {
 
 }//fin de la function
 add_action('admin_init', 'adcuillier_admin_scripts');
+
+
+//===================================================================================
+//=================== UTILITAIRES
+//===================================================================================
+
+function adcuillier_setup() {
+
+
+}//fin de la function adcuillier_setup
+
+add_action('after_setup_theme', 'adcuillier_setup');
