@@ -53,7 +53,31 @@
     <div class="container">
         <div class="jumbotron">
             <h1>Coucou c'est Vincent</h1>
-        </div>
+        </div> 
+    </div> <!-- /container -->
+
+    <?php if (have_posts()): 
+        while(have_posts()):
+
+            the_post();
+
+            the_title(); echo "<br>";
+
+
+        endwhile;
+
+
+
+    else:
+        echo "il n'y a pas de résultats";
+    endif;
+
+    die();
+    ?>
+
+
+
+
 
         <section>
             <div class="container">
