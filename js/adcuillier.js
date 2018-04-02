@@ -1,1 +1,5 @@
-console.log('je suis adcuillier.js');
+jQuery(document).ready(function($) {
+
+    $("h1").css('color',"#f00");
+
+});
