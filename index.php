@@ -13,9 +13,11 @@
     <div class="container">
         <div class="row">
             <div class="col-4">
-                <h1>Coucou c'est moi</h1>
+                <img src="<?php echo get_template_directory_uri(); ?>/SCRUM.png" alt="test1" class="img-fluid">
+                
             </div>
             <div class="col-6">
+                <h1>Coucou c'est moi</h1>    
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. At quae id voluptates rerum corporis numquam sed voluptatibus inventore similique, magnam quis non asperiores alias reiciendis, illo suscipit soluta expedita? Impedit!</p>
             </div>
         </div>
