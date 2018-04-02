@@ -36,6 +36,8 @@ add_action('admin_init', 'adcuillier_admin_scripts');
 function adcuillier_setup() {
     //support des vignettes
     add_theme_support( 'post-thumbnails' );
+    //enlève générateur de version
+    remove_action('wp_head', 'wp_generator');
 
 }//fin de la function adcuillier_setup
 

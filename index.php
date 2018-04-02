@@ -4,6 +4,7 @@
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod animi consequuntur neque a possimus qui recusandae facilis accusantium tempora nisi, obcaecati labore, modi ullam illo suscipit vel, molestiae nemo eaque." />
 
 
 <?php wp_head();  ?>
