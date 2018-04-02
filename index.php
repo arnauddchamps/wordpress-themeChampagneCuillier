@@ -54,7 +54,7 @@
         <div class="jumbotron">
             <h1>Coucou c'est Vincent</h1>
         </div> 
-    </div> <!-- /container -->
+    
 
     <?php if (have_posts()): 
         while(have_posts()):
