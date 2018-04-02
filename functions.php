@@ -17,7 +17,7 @@ function adcuillier_scripts() {
 
 } //fin function adcuillier_scripts
 
-add_action('wp_enqueue_scripts', 'adcuillier_scripts');
+add_action('wp_enqueue_admin_scripts', 'adcuillier_scripts');
 
 
 //chargement dans l'admin
