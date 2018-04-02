@@ -38,6 +38,8 @@ function adcuillier_setup() {
     add_theme_support( 'post-thumbnails' );
     //enlève générateur de version
     remove_action('wp_head', 'wp_generator');
+    //enlève les guillemets à la française
+    //remove_filter('the_content', 'wptexturize');
 
 }//fin de la function adcuillier_setup
 
